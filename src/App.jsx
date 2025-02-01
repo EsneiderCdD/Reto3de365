@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import AdviceAxios from './components/AdviceAxios';
-
+import RandomDOg from './components/RandomDog';
+import RandomCat from './components/RandomCat';
 const App = () => {
 
   const [advice, setAdvice] = useState('');
@@ -31,6 +32,9 @@ const App = () => {
 
       <div>
         <AdviceAxios /> 
+        <RandomDOg />
+        <RandomCat />
+        
       </div>
 
     </div>
