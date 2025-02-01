@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import AdviceAxios from './components/AdviceAxios';
 
 const App = () => {
-  // **Estado para almacenar el consejo**
+
   const [advice, setAdvice] = useState('');
 
   // **Función para obtener un consejo aleatorio**
@@ -27,8 +28,15 @@ const App = () => {
         <p>{advice || 'Cargando consejo...'}</p>
         <button onClick={fetchAdvice}>Obtener otro consejo</button>
       </div>
+
+      <div>
+        <AdviceAxios /> 
+      </div>
+
     </div>
+    
   );
 };
 
 export default App;
+
