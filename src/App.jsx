@@ -4,6 +4,7 @@ import RandomDOg from './components/RandomDog';
 import RandomCat from './components/RandomCat';
 import AdviceFetcher from './components/AdviceFetcher';
 import BreakingBadQuote from './components/BreakingBadQuote';
+import DogImage from './components/DogImage';
 const App = () => {
 
   const [advice, setAdvice] = useState('');
@@ -38,6 +39,7 @@ const App = () => {
         <RandomCat></RandomCat>
         <BreakingBadQuote></BreakingBadQuote>
         <AdviceFetcher />
+        <DogImage></DogImage>
       </div>
 
     </div>
