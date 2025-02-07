@@ -10,6 +10,7 @@ import RandomUsedCard from './components/RandomUsedCard';
 import AdviceFetcherAxios from './components/axios/AdviceFetcherAxios';
 import BreweryListAxios from './components/axios/BreweryListAxios';
 import PokemonSearchAxios from './components/axios/PokemonSearchAxios';
+import RickAndMortyCharacterAxios from './components/axios/RickAndMortyCharacterAxios';
 const App = () => {
 
   const [advice, setAdvice] = useState('');
@@ -50,6 +51,7 @@ const App = () => {
         <AdviceFetcherAxios></AdviceFetcherAxios>
         <BreweryListAxios></BreweryListAxios>
         <PokemonSearchAxios></PokemonSearchAxios>
+        <RickAndMortyCharacterAxios></RickAndMortyCharacterAxios>
       </div>
 
 
