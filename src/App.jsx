@@ -9,6 +9,7 @@ import ChuckNorrisJoke from './components/ChuckNorrisJoke';
 import RandomUsedCard from './components/RandomUsedCard';
 import AdviceFetcherAxios from './components/axios/AdviceFetcherAxios';
 import BreweryListAxios from './components/axios/BreweryListAxios';
+import PokemonSearchAxios from './components/axios/PokemonSearchAxios';
 const App = () => {
 
   const [advice, setAdvice] = useState('');
@@ -48,6 +49,7 @@ const App = () => {
         <RandomUsedCard></RandomUsedCard>
         <AdviceFetcherAxios></AdviceFetcherAxios>
         <BreweryListAxios></BreweryListAxios>
+        <PokemonSearchAxios></PokemonSearchAxios>
       </div>
 
 
