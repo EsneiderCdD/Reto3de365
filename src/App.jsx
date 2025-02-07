@@ -11,6 +11,7 @@ import AdviceFetcherAxios from './components/axios/AdviceFetcherAxios';
 import BreweryListAxios from './components/axios/BreweryListAxios';
 import PokemonSearchAxios from './components/axios/PokemonSearchAxios';
 import RickAndMortyCharacterAxios from './components/axios/RickAndMortyCharacterAxios';
+import LatestSpaceXLaunchAxios from './components/axios/LatestSpaceXLaunchAxios';
 const App = () => {
 
   const [advice, setAdvice] = useState('');
@@ -52,6 +53,7 @@ const App = () => {
         <BreweryListAxios></BreweryListAxios>
         <PokemonSearchAxios></PokemonSearchAxios>
         <RickAndMortyCharacterAxios></RickAndMortyCharacterAxios>
+        <LatestSpaceXLaunchAxios></LatestSpaceXLaunchAxios>
       </div>
 
 
