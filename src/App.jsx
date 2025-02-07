@@ -8,6 +8,7 @@ import DogImage from './components/DogImage';
 import ChuckNorrisJoke from './components/ChuckNorrisJoke';
 import RandomUsedCard from './components/RandomUsedCard';
 import AdviceFetcherAxios from './components/axios/AdviceFetcherAxios';
+import BreweryListAxios from './components/axios/BreweryListAxios';
 const App = () => {
 
   const [advice, setAdvice] = useState('');
@@ -46,6 +47,7 @@ const App = () => {
         <ChuckNorrisJoke></ChuckNorrisJoke>
         <RandomUsedCard></RandomUsedCard>
         <AdviceFetcherAxios></AdviceFetcherAxios>
+        <BreweryListAxios></BreweryListAxios>
       </div>
 
 
